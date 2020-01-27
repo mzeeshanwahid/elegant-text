@@ -1,1 +1,1 @@
-export * from "./ElegantHeading";
+export * from './ElegantHeading';

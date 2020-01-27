@@ -1,5 +1,9 @@
 import * as React from "react";
-import { ElegantHeadingProps } from "../index";
+
+export interface ElegantHeadingProps{
+  className?: string;
+  children: React.ReactNode;
+}
 
 export const ElegantHeading: React.FC<ElegantHeadingProps> = ({
   className,
@@ -7,3 +11,5 @@ export const ElegantHeading: React.FC<ElegantHeadingProps> = ({
 }) => {
   return <div className={className}>{children}</div>;
 };
+
+export default ElegantHeading;
